@@ -1,18 +1,67 @@
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 h1 {
     text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-size: 175%;
 }
-p {
+
+#row {
+    margin:20px;
+}
+
+.gray {
     border: 1px solid black;
     background-color: lightgray;
     height: 250px;
-    padding: 2%;
-    margin: 3%;
+    margin: 20px;
+    position: relative;
+}
+.float {
+    float: right;
 }
 
+p {
+    padding: 10px;
+    float: left;
+    clear: both;
+}
+#rainbow1 {
+    border: 1px solid black;
+    background-color: palevioletred;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 125%;
+}
+#rainbow2 {
+    border: 1px solid black;
+    background-color: tomato;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    color:aliceblue;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 125%;
+}
+#rainbow3 {
+    border: 1px solid black;
+    background-color: yellowgreen;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 125%;
+}
 /* Desktop resolution */
 @media (min-width: 992px) {
     .col-lg-4 {
@@ -42,6 +91,6 @@ p {
     }
 }
 
-<!-- /* desktop 992px and above. 
-Tablet between 768px and 991px, inclusively. 
-Mobile equal to or less than 767px */ -->
+
+
+/* Also, set the font size of the heading and section title to be 75% larger and 25% larger (respectively) than the font size of the dummy text. */
